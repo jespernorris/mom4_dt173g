@@ -1,0 +1,49 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: rgb(252, 242, 225);
+}
+
+.container {
+    max-width: 70%;
+    margin: 0 auto;
+}
+
+.content {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.content h2 {
+    text-align: center;
+}
+
+nav li {
+    list-style: none;
+    text-align: center;
+    margin-top: 0.5em;
+}
+
+nav ul {
+    padding-inline-start: 0px;
+}
+
+nav ul li a {
+    color: blue;
+    text-decoration: none;
+    font-size: 110%;
+    border-bottom: 1px solid black;
+}
+
+@media screen and (max-width: 800px) {
+    .container {
+        max-width: 80%;
+    }
+
+    .content {
+        max-width: 90%;
+    }
+    
+}

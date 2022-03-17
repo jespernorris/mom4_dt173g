@@ -1,0 +1,1 @@
+console.log("Hamburger.js säger hej");
